@@ -3,66 +3,69 @@
 <html>
 
 <head>
+		<script type="text/javascript" src="script1.js"></script>
+		<link rel="stylesheet" href="style1.css">
 		<title>Are you...</title>
 </head>
 
 <body>
 <div id="main">
-<div id="header"><h1>What flavor coffee are you?</h1></div>
+<div id="header"><h1>What </h1></div>
 
 <form  id="form1">
 <p>How old are you?</p>
-<label><input type="radio" name="age" id="age1" value="1" />under 18</label>
-<label><input type="radio" name="age" id="age2" value="2" />19-25</label>
-<label><input type="radio" name="age" id="age3" value="3" />25-29</label>
-<label><input type="radio" name="age" id="age4" value="4" />30+</label>
+<input type="radio" name="age" id="age1" value="1">under 18
+<input type="radio" name="age" id="age2" value="2" />19-25
+<input type="radio" name="age" id="age3" value="3" />25-29
+<input type="radio" name="age" id="age4" value="4" />30+<br>
 
 <p>What is your favorite board game?</p>
-<label><input type="radio" name="game" id="game1" value="1" />The Game of Life</label>
-<label><input type="radio" name="game" id="game2" value="2" />Monopoly</label>
-<label><input type="radio"  name="game"id="game3" value="3" />Sorry</label>
-<label><input type="radio"  name="game"id="game4" value="4" />Clue</label>
+<input type="radio" name="game" id="game1" value="1" />The Game of Life
+<input type="radio" name="game" id="game2" value="2" />Monopoly
+<input type="radio" name="game" id="game3" value="3" />Sorry
+<input type="radio" name="game" id="game4" value="4" />Clue<br>
 
 <p>What is your favorite activity?</p>
-<label><input type="radio" name="activity" id="activity1" value="1" />Shopping</label>
-<label><input type="radio" name="activity" id="activity2" value="2" />Sleeping</label>
-<label><input type="radio" name="activity" id="activity2" value="3" />Hiking</label>
-<label><input type="radio" name="activity" id="activity4" value="4" />Swimming</label>
+<input type="radio" name="activity" id="activity1" value="1" />Shopping
+<input type="radio" name="activity" id="activity2" value="2" />Sleeping
+<input type="radio" name="activity" id="activity2" value="3" />Hiking
+<input type="radio" name="activity" id="activity4" value="4" />Swimming<br>
 
 <p>What is something you can't live without?</p>
-<label><input type="radio" name="live" id="live1" value="1" />Coffee</label>
-<label><input type="radio" name="live" id="live2" value="2" />Wifi</label>
-<label><input type="radio" name="live" id="live3" value="3" />My Passport</label>
-<label><input type="radio" name="live" id="live4" value="4" />Friends</label>
+<input type="radio" name="live" id="live1" value="1" />Coffee
+<input type="radio" name="live" id="live2" value="2" />Wifi
+<input type="radio" name="live" id="live3" value="3" />My Passport
+<input type="radio" name="live" id="live4" value="4" />Friends<br>
 
 <p>What is your favorite season?</p>
-<label><input type="radio" name="genre" id="season1" value="1" />Summer</label>
-<label><input type="radio" name="genre" id="season2" value="2" />Winter</label>
-<label><input type="radio" name="genre" id="season3" value="3" />Spring</label>
-<label><input type="radio" name="genre" id="season4" value="4" />Fall</label>
+<input type="radio" name="genre" id="season1" value="1" />Summer
+<input type="radio" name="genre" id="season2" value="2" />Winter
+<input type="radio" name="genre" id="season3" value="3" />Spring
+<input type="radio" name="genre" id="season4" value="4" />Fall<br>
 
 <p>What is your favorite social network?</p>
-<label><input type="radio" name="network" id="network1" value="1" />Facebook</label>
-<label><input type="radio" name="network" id="network2" value="2" />Instagram</label>
-<label><input type="radio" name="network" id="network3" value="3" />Twitter</label>
-<label><input type="radio" name="network" id="network4" value="4" />Snapchat</label>
+<input type="radio" name="network" id="network1" value="1" />Facebook
+<input type="radio" name="network" id="network2" value="2" />Instagram
+<input type="radio" name="network" id="network3" value="3" />Twitter
+<input type="radio" name="network" id="network4" value="4" />Snapchat<br>
 
 <p>What is your favorite color?</p>
-<label><input type="radio" name="color" id="color1" value="1" />Pink</label>
-<label><input type="radio" name="color" id="color2" value="2" />Black</label>
-<label><input type="radio" name="color" id="color3" value="3" />Blue</label>
-<label><input type="radio" name="color" id="color4" value="4" />Yellow</label>
+<input type="radio" name="color" id="color1" value="1" />Pink
+<input type="radio" name="color" id="color2" value="2" />Black
+<input type="radio" name="color" id="color3" value="3" />Blue
+<input type="radio" name="color" id="color4" value="4" />Yellow<br>
 
 <p>What is your favorite city?</p>
-<label><input type="radio" name="city" id="city1" value="1" />New York, NY</label>
-<label><input type="radio" name="city" id="city2" value="2" />Los Angeles, CA</label>
-<label><input type="radio" name="city" id="city3" value="3" />Washington, DC</label>
-<label><input type="radio" name="city" id="city4" value="4" />Savannah, Georgia</label>
+<input type="radio" name="city" id="city1" value="1" />New York, NY
+<input type="radio" name="city" id="city2" value="2" />Los Angeles, CA
+<input type="radio" name="city" id="city3" value="3" />Washington, DC
+<input type="radio" name="city" id="city4" value="4" />Savannah, Georgia<br>
 
-
-<p><button type="submit" value="Submit">Submit</button>
+<p><input type="button" value="Submit" onclick="process();">
 </form>
 
+<p id="answer"></p>
+<p id="answer2"></p>
 </div>
 </body>
 </html>
