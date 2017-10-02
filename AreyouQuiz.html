@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 		<script type="text/javascript" src="script1.js"></script>
 		<link rel="stylesheet" href="style1.css">
-		<title>Are you...</title>
+		<title>Quiz</title>
 </head>
 
 <body>
 <div id="main">
-<div id="header"><h1>What </h1></div>
+<div id="header"><h1>What color starburst are you?</h1></div>
 
-<form  id="form1">
+<form  id="form1" class="questions">
 <p>How old are you?</p>
 <input type="radio" name="age" id="age1" value="1">under 18
 <input type="radio" name="age" id="age2" value="2" />19-25
@@ -61,7 +59,7 @@
 <input type="radio" name="city" id="city3" value="3" />Washington, DC
 <input type="radio" name="city" id="city4" value="4" />Savannah, Georgia<br>
 
-<p><input type="button" value="Submit" onclick="process();">
+<p><input type="button" value="Submit" onclick="evaluate();">
 </form>
 
 </div>
