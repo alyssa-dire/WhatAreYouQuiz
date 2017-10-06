@@ -10,14 +10,16 @@
 	<div id="header">
 		<h1>What color Starburst are you?</h1>
 		<p>Answer the questions and we'll tell you what color starburst matches your personality!</p>
+		<img src="starbursts.jpg" alt="Starburts" width="300" height="128">
 	</div>
 
-	<form  id="form1" class="questions">
+	<form  id="questions">
 	<p>How old are you?</p>
-	<input type="radio" name="age" id="age1" value="1">under 16
-	<input type="radio" name="age" id="age2" value="2" />16-19
-	<input type="radio" name="age" id="age3" value="3" />20-24
-	<input type="radio" name="age" id="age4" value="4" />25+<br>
+	<label><input type="radio" name="age" id="age1" value="1">under 16<img src="Under16.png" alt="Under 16" width="45" height="45"></label>
+	<label><input type="radio" name="age" id="age2" value="2" />16-19<img src="1619.png" alt="16-19" width="45" height="45"></label>
+	<label><input type="radio" name="age" id="age3" value="3" />20-24<img src="2024.png" alt="20-24" width="45" height="45"></label>
+	<label><input type="radio" name="age" id="age4" value="4" />25+<img src="25.png" alt="25" width="45" height="45"></label>
+	<br>
 
 	<p>What is your favorite board game?</p>
 	<input type="radio" name="game" id="game1" value="1" />Clue
@@ -70,7 +72,7 @@
 	</div>
 
 	<script type="text/javascript">
-		document.getElementById("form1").onsubmit=function() {
+		document.getElementById("questions").onsubmit=function() {
 
 			//Convert string to int value 
 			age = parseInt(document.querySelector('input[name = "age"]:checked').value);
