@@ -1,12 +1,46 @@
 body {
-	background-color: #D3D3D3; 
+background-color: #FFF;
+font-family: Helvetica;
 }
 
-.questions{
-
+#header {
+margin-top: 0;
+padding: 10px;
+width: 60%;
+height: 120px;
+margin: auto;
+text-align: center; 
+border-radius: 10px;
+background-color: #FFF;
 }
 
-.button {
-	
 
+@font-face {
+    font-family: "moonflowerimport";
+    src: url("Moon Flower.ttf");
 }
+
+h2 {
+width: 60%;
+border: 1px #FFF;
+margin: auto;
+padding: 10px;
+background-color: #D8BFD8;
+color: #FFF;
+font-family: moonflowerimport;
+font-size: 65px;
+border-radius: 10px;
+text-align: center; 
+}
+
+#left_options {
+width: 45%; 
+float: left;
+}
+
+#right_options {
+width: 45%; 
+float: left;
+}
+
+
