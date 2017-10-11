@@ -1,20 +1,3 @@
-body {
-background-color: #FFF;
-font-family: Helvetica;
-}
-
-#header {
-margin-top: 0;
-padding: 10px;
-width: 60%;
-height: 120px;
-margin: auto;
-text-align: center; 
-border-radius: 10px;
-background-color: #FFF;
-}
-
-
 @font-face {
     font-family: "moonflowerimport";
     src: url("Moon Flower.ttf");
@@ -29,18 +12,38 @@ background-color: #D8BFD8;
 color: #FFF;
 font-family: moonflowerimport;
 font-size: 65px;
-border-radius: 10px;
+border-radius: 2px;
 text-align: center; 
 }
 
-#left_options {
-width: 45%; 
-float: left;
+body {
+background-color: #FFF;
+font-family: Helvetica;
 }
 
-#right_options {
-width: 45%; 
-float: left;
+label {
+border: 1px solid grey;
 }
 
+img {
+
+}
+
+#header {
+margin-top: 0;
+padding: 10px;
+width: 60%;
+height: 120px;
+margin: auto;
+text-align: center; 
+border-radius: 10px;
+background-color: #FFF;
+}
+
+
+#questions {
+font-family: Helvetica;
+font-size: 35px;
+text-align: center;
+}
 
