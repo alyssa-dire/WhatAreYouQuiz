@@ -21,12 +21,36 @@ background-color: #FFF;
 font-family: Helvetica;
 }
 
-label {
-border: 1px solid grey;
+input {
+	visibility: hidden;
 }
 
-img {
+.labelToCheck {
+  background-color: #ddd; 
+  color: #333;
+  display:inline-block; 
+  margin:  0.88em 1em;
+  padding: 0.42em 1em;
+  text-align: center;}
+  .labelToCheck:hover {
+  color:#000;
+  background-color: grey;}
 
+
+img {
+border: 1px solid grey;
+background-color: #FFF;
+}
+
+button[type="submit"] {
+	background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
 }
 
 #header {
@@ -43,7 +67,9 @@ background-color: #FFF;
 
 #questions {
 font-family: Helvetica;
-font-size: 35px;
+font-size: 25px;
 text-align: center;
 }
+
+
 
