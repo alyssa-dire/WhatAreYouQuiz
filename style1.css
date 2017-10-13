@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "moonflowerimport";
-    src: url("Moon Flower.ttf");
+font-family: "moonflowerimport";
+src: url("Moon Flower.ttf");
 }
 
 h2 {
@@ -22,19 +22,22 @@ font-family: Helvetica;
 }
 
 input {
-	visibility: hidden;
+visibility: hidden;
 }
 
 .labelToCheck {
-  background-color: #ddd; 
-  color: #333;
-  display:inline-block; 
-  margin:  0.88em 1em;
-  padding: 0.42em 1em;
-  text-align: center;}
-  .labelToCheck:hover {
-  color:#000;
-  background-color: grey;}
+background-color: #ddd; 
+color: #333;
+display:inline-block; 
+margin:  0.88em 1em;
+padding: 0.42em 1em;
+text-align: center;
+}
+
+.labelToCheck:hover {
+color:#000;
+background-color: grey;
+}
 
 
 img {
@@ -43,25 +46,26 @@ background-color: #FFF;
 }
 
 button[type="submit"] {
-	background-color: grey;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+background-color: grey;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
 }
 
 #header {
-margin-top: 0;
 padding: 10px;
-width: 60%;
-height: 120px;
+width: 80%;
+height: 50%;
 margin: auto;
 text-align: center; 
 border-radius: 10px;
 background-color: #FFF;
+text-align: center;
+overflow: inital;
 }
 
 
@@ -71,5 +75,14 @@ font-size: 25px;
 text-align: center;
 }
 
+#answer {
+font-family: Helvetica;
+font-size: 25px;
+text-align: center;
+}
 
-
+#results {
+ font-family: Helvetica;
+font-size: 25px;
+text-align: center;
+}
