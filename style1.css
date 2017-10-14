@@ -25,6 +25,7 @@ input {
 visibility: hidden;
 }
 
+
 .labelToCheck {
 background-color: #ddd; 
 color: #333;
@@ -34,15 +35,9 @@ padding: 0.42em 1em;
 text-align: center;
 }
 
-.labelToCheck:hover {
+.labelToCheck:active {
 color:#000;
 background-color: grey;
-}
-
-
-img {
-border: 1px solid grey;
-background-color: #FFF;
 }
 
 button[type="submit"] {
@@ -70,8 +65,9 @@ overflow: inital;
 
 
 #questions {
-font-family: Helvetica;
-font-size: 25px;
+font-family: moonflowerimport;
+font-weight: bold;
+font-size: 35px;
 text-align: center;
 }
 
@@ -82,7 +78,7 @@ text-align: center;
 }
 
 #results {
- font-family: Helvetica;
+  font-family: Helvetica;
 font-size: 25px;
 text-align: center;
 }
